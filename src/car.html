@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>04购物车</title>
+	<link rel="stylesheet" href="./css/index.css">
+	<style type="text/css">
+		img{
+			display: block;
+			width:200px;
+			height:200px;
+		}
+		.banner-wrap{
+			border-width: 100%;
+			height: 95px;
+			background: #ffff;
+		}
+		.banner{
+			width: 990px;
+			height: 95px;
+			margin: 0 auto;
+		}
+		.banner a{
+			margin-top: 30px;
+			width: 181px;
+			height: 50px;
+			display: block;
+			float: left;
+			background: url(./img/car.png) no-repeat;
+			background-size: 100%;
+		}
+		
+		form{
+			float: right;
+			width: 515px;
+			height: 29px;
+			border: 3px solid red;
+		}
+		.banner form .txt{
+			float: left;
+			width: 416px;
+			height: 25px;
+			border: 0;
+				
+		}
+		.banner form .btn{
+			width: 95px;
+			height: 35px;
+			float: right;
+			border: 0;
+		}
+		.car{
+			width: 100%;
+			
+		}
+		#container{
+			width: 1190px;
+			margin: 0 auto;
+		}
+		#container table{
+			border-top: 3px solid #ccc;
+			width: 1190px;
+			margin-bottom: 20px;
+		}
+		#container table th{
+			font-size: 20px;
+			height: 100px;
+		}
+	</style>
+</head>
+<body>
+	
+<!-- 界面 -->
+ <div class="top-wrap">
+        <div class="top">
+            <ul class="top-left">
+                <li><a href="#">喵，欢迎来到天猫</a></li>
+                <li><a href="./WWW/login.html">请登录</a></li>
+                <li><a href="zhuce.html">免费注册</a></li>
+            </ul>
+            <div class="top-right">
+                <ul>
+                    <li><a href="#">我的淘宝</a></li>
+                    <li><i class="iconfont icon-gouwuchekong"></i><a href="./car.html">购物车</a></li>
+                    <li><a href="./WWW/ajax/ajaxlogin.html">收藏夹</a></li>
+                    <li><i class="iconfont icon-iphone"></i><a href="#">手机版</a></li>
+                    <li><a href="#">淘宝网</a></li>
+                    <li><a href="#">商家支持</a></li>
+                    <li><i class="iconfont icon-wangzhandaohang"></i><a href="#">网站导航</a></li> 
+                </ul>
+            </div>   
+        </div>
+	</div>
+	<div class="banner-wrap">
+		<div class="banner">
+				<a href="#"></a>
+				<form action="">
+						<input type="text" class="txt" placeholder="搜索商品">
+						<input type="button" class="btn" value="搜索">
+				</form>
+		</div>
+	</div>
+	<div class="car">
+		<div id="container">
+
+	
+			</div>
+	</div>
+<script type="text/javascript" src="./js/car.js"></script>
+
+
+</body>
+</html>

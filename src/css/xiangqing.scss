@@ -1,0 +1,65 @@
+body,html{
+    background: #fff;
+}
+.shopcar{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 700px;
+    top: 200px;
+    
+}
+#box{
+    float: left;
+}
+.box-r{
+    margin-top: 200px;
+    float: left;
+    p{
+        width: 440px;
+        height: 30px;
+        background: #ccc;
+        span{
+            color: #999;
+            font-size: 12px;
+            text-align: left;
+            margin-right: 25px;
+            line-height: 30px;
+            display: block;
+            float: left;
+        }
+        a{
+            color: #FF0036;
+            font-size: 24px;
+            font-weight: bolder;
+            text-decoration: none;
+        }
+        
+    }
+    div{
+        margin-top: 50px;
+        .a1{
+            display: block;
+            float: left;
+            width: 180px;
+            height: 40px;
+            background-color: #ffeded;
+            border: 1px solid #FF0036;
+            color: #FF0036;
+            text-align: center;
+            line-height: 40px;
+        }
+        .a2{
+            display: block;
+            float: left;
+            width: 180px;
+            height: 40px;
+            background-color: #ff0036;
+            border: 1px solid #ff0036;
+            color: #fff;
+            text-align: center;
+            line-height: 40px;
+            margin-left: 15px;
+        }
+    }
+}
