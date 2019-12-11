@@ -48,7 +48,7 @@ $('.nav ul .li1').on('mouseenter',function(){
 $('.nav ul .li1').on('mouseleave',function(){
     $('.two').css('display',"none")
 })
-//放大镜
+
 $('.off').click(function(){
     $('.guanggao').css('display','none')
 });
@@ -96,5 +96,13 @@ input.oninput = function(){
         }
     },0)
 }
-
-	
+var cookie = document.cookie
+var lg = document.getElementsByClassName('lg')[0]
+var a = document.getElementsByClassName('cookie')[0];
+var str = cookie.split('=');
+console.log(str)
+var un = str[0]
+if(cookie != 0){
+    a.innerHTML = '欢迎你'+ un;
+    lg.style.display = "none"
+}

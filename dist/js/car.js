@@ -5,7 +5,13 @@
 			name: "超级无敌至尊冰凉粉",
 			pic: "./img/small.jpg",
 			price: 10,
-			
+			id:1			
+		},
+		{
+			name: "超级无敌至尊大宝",
+			pic: "./img/box-3.gif",
+			price: 10,
+			id:2
 		},
 
 	]
